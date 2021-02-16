@@ -11,22 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: AnaSayfa("benim sayfam"),
-    );
-  }
-}
-
-class AnaSayfa extends StatelessWidget {
-
-  final String name;
-
-  AnaSayfa(this.name);
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(name),
-      ),
+      home: AnaSayfa(),
     );
   }
 }
