@@ -15,3 +15,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class AnaSayfa extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+    );
+  }
+}
